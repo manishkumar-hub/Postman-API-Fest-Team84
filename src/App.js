@@ -12,9 +12,9 @@ function App() {
     <div className="App">
        <NavBar/>
        {/* <LandingPage/> */}
-       <HomePage/>
+       {/* <HomePage/> */}
        {/* <BookImgCard/> */}
-       {/* <Books genera={"Sci-fi"}/> */}
+       <Books genera={"Sci-fi"}/>
     </div>
   );
 }

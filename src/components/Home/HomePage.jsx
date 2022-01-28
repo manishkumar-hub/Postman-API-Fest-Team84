@@ -9,7 +9,7 @@ function HomePage() {
             <div className="row">
                 <h2 className='row-heading'>Top Reads</h2>
                 {/* <!-- Flickity HTML init --> */}
-                <div class="carousel" data-flickity='{ "autoPlay":true , "groupCells": 2 ,"groupCells": true }'>
+                <div class="carousel" data-flickity='{ "autoPlay":true , "autoPlay": 3000 , "groupCells": 2 ,"groupCells": true }'>
                     <div class="carousel-cell"><BookImgCard /> </div>
                     <div class="carousel-cell"> <BookImgCard /> </div>
                     <div class="carousel-cell"> <BookImgCard /> </div>
@@ -26,7 +26,7 @@ function HomePage() {
             <div className="row">
                 <h2 className='row-heading'>Top Reads</h2>
                 {/* <!-- Flickity HTML init --> */}
-                <div class="carousel" data-flickity='{ "autoPlay":true , "groupCells": 2 ,"groupCells": true }'>
+                <div class="carousel" data-flickity='{ "autoPlay":true , "groupCells": 2 ,"autoPlay": 3000 ,"groupCells": true }'>
                     <div class="carousel-cell"><BookImgCard /> </div>
                     <div class="carousel-cell"> <BookImgCard /> </div>
                     <div class="carousel-cell"> <BookImgCard /> </div>
@@ -43,7 +43,7 @@ function HomePage() {
             <div className="row">
                 <h2 className='row-heading'>Top Reads</h2>
                 {/* <!-- Flickity HTML init --> */}
-                <div class="carousel" data-flickity='{ "autoPlay":true , "groupCells": 2 ,"groupCells": true }'>
+                <div class="carousel" data-flickity='{ "autoPlay":true , "groupCells": 2 ,"autoPlay": 3000 , "freeScroll": true, "groupCells": true }'>
                     <div class="carousel-cell"><BookImgCard /> </div>
                     <div class="carousel-cell"> <BookImgCard /> </div>
                     <div class="carousel-cell"> <BookImgCard /> </div>

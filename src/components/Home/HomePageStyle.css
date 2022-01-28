@@ -1,9 +1,9 @@
 .HomePage{
-    background-image: url("./BookBg.jpg");
+    /* background-image: url("./BookBg.jpg"); */
     background-size:cover;
     /* background-repeat: repeat; */
     background-attachment: fixed; 
-    color: white; 
+    color: rgb(15, 15, 15); 
 }
 .row-heading
 {
